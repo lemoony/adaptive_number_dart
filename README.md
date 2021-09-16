@@ -27,6 +27,8 @@ The `adpative_number` library takes a conditional import approach to ease this p
 - If it runs on a JS runtime, `Number` wraps a `fixnum/Int64`
 - For all other platforms `Number` wraps a default Dart `int` type.
 
+Some historical background of this library can also be seen in: https://github.com/MixinNetwork/libsignal_protocol_dart/pull/43
+
 ## Usage
 
 A `Number` instance is created by wrapping it around a default `int` value:
